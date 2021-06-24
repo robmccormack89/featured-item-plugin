@@ -2,7 +2,7 @@
 /*
 Plugin Name: Featured Item Section by RMcC
 Plugin URI: #
-Description: Adds featured item section via shortcode featured_content_item
+Description: Adds featured item section via shortcode [featured_content_item_section]
 Version: 1.0.0
 Author: robmccormack89
 Author URI: #
@@ -17,14 +17,15 @@ Domain Path: /languages/
 defined('ABSPATH') || exit;
 
 // define some constants
-if (!defined('FEATURED_ITEM_PATH')) define('FEATURED_ITEM_PATH', plugin_dir_path( __FILE__ ));
-if (!defined('FEATURED_ITEM_URL')) define('FEATURED_ITEM_URL', plugin_dir_url( __FILE__ ));
-
-// require action functions 
-require_once('inc/functions.php');
+if (!defined('VIDEO_POPUP_PATH')) define('VIDEO_POPUP_PATH', plugin_dir_path( __FILE__ ));
+if (!defined('VIDEO_POPUP_URL')) define('VIDEO_POPUP_URL', plugin_dir_url( __FILE__ ));
+if (!defined('VIDEO_POPUP_BASE')) define('VIDEO_POPUP_BASE', dirname(plugin_basename( __FILE__ )));
 
 // require the composer autoloader
 if (file_exists($composer_autoload = __DIR__.'/vendor/autoload.php')) require_once $composer_autoload;
 
 // then require the main plugin class. this class extends Timber/Timber which is required via composer
-new Rmcc\FeaturedItem;
+new Rmcc\VideoPopup;
+
+// require action functions 
+require_once('inc/functions.php');
