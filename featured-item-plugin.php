@@ -2,7 +2,7 @@
 /*
 Plugin Name: Featured Item Section by RMcC
 Plugin URI: #
-Description: Adds featured item section via shortcode [featured_content_item_section]
+Description: Add a featured item section to a page using the [featured_content_item_section] shortcode. Ideal for the Homepage. This plugin is translation-ready.
 Version: 1.0.0
 Author: robmccormack89
 Author URI: #
