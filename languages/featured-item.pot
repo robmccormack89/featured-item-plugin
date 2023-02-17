@@ -1,4 +1,4 @@
-# Copyright (C) 2021 featured-item
+# Copyright (C) 2023 featured-item
 # This file is distributed under the same license as the featured-item package.
 msgid ""
 msgstr ""
@@ -13,32 +13,27 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: views/temp/featured-item.php:6
-msgctxt "Featured item image url"
-msgid "https://picsum.photos/720/500"
-msgstr ""
-
-#: views/temp/featured-item.php:7
-msgctxt "Featured item image alt text"
-msgid "Alt text"
+#: views/temp/featured-item.php:5
+msgctxt "Image link"
+msgid "https://picsum.photos/600/600"
 msgstr ""
 
 #: views/temp/featured-item.php:11
-msgctxt "Featured item title"
-msgid "Something about us"
+msgctxt "Title"
+msgid "Lorem ipsum"
 msgstr ""
 
-#: views/temp/featured-item.php:12
-msgctxt "Featured item description"
-msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#: views/temp/featured-item.php:15
+msgctxt "Details"
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore."
 msgstr ""
 
-#: views/temp/featured-item.php:14
-msgctxt "Featured item link url"
+#: views/temp/featured-item.php:19
+msgctxt "Button link"
 msgid "#"
 msgstr ""
 
-#: views/temp/featured-item.php:14
-msgctxt "Featured item link text"
-msgid "Our guarantee"
+#: views/temp/featured-item.php:20
+msgctxt "Button text"
+msgid "Click here"
 msgstr ""

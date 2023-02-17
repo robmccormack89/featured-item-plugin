@@ -60,7 +60,7 @@ class ComposerStaticInitfff9e3cf4cc6ffd2d74318306d57960c
     );
 
     public static $fallbackDirsPsr4 = array (
-        0 => __DIR__ . '/..' . '/asm89/twig-cache-extension/lib',
+        0 => __DIR__ . '/..' . '/twig/cache-extension/lib',
     );
 
     public static $prefixesPsr0 = array (
