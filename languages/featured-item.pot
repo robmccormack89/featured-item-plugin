@@ -18,6 +18,11 @@ msgctxt "Image link"
 msgid "https://picsum.photos/600/700?random=2"
 msgstr ""
 
+#: views/temp/featured-item.php:5
+msgctxt "Image alt text"
+msgid "Image by Lorem Picsum"
+msgstr ""
+
 #: views/temp/featured-item.php:11
 msgctxt "Title"
 msgid "Lorem ipsum"
