@@ -15,7 +15,7 @@ msgstr ""
 
 #: views/temp/featured-item.php:5
 msgctxt "Image link"
-msgid "https://picsum.photos/600/600"
+msgid "https://picsum.photos/600/700?random=2"
 msgstr ""
 
 #: views/temp/featured-item.php:11
