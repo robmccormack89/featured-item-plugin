@@ -16,21 +16,21 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-17 17:42+0000\n"
-"PO-Revision-Date: 2023-02-18 01:27+0000\n"
+"PO-Revision-Date: 2023-02-17 17:42+0000\n"
 "Last-Translator: \n"
 "Language-Team: English (UK)\n"
 "Language: en_GB\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.6.3; wp-6.1.1"
 
-#: views/temp/featured-item.php:19
-msgctxt "Button link"
-msgid "#"
+#: views/temp/featured-item.php:5
+msgctxt "Image link"
+msgid "https://picsum.photos/600/600"
 msgstr ""
 
-#: views/temp/featured-item.php:20
-msgctxt "Button text"
-msgid "Click here"
+#: views/temp/featured-item.php:11
+msgctxt "Title"
+msgid "Lorem ipsum"
 msgstr ""
 
 #: views/temp/featured-item.php:15
@@ -40,17 +40,12 @@ msgid ""
 "tempor incididunt ut labore et dolore."
 msgstr ""
 
-#: views/temp/featured-item.php:5
-msgctxt "Image alt text"
-msgid "Image by Lorem Picsum"
+#: views/temp/featured-item.php:19
+msgctxt "Button link"
+msgid "#"
 msgstr ""
 
-#: views/temp/featured-item.php:5
-msgctxt "Image link"
-msgid "https://picsum.photos/600/700?random=2"
-msgstr ""
-
-#: views/temp/featured-item.php:11
-msgctxt "Title"
-msgid "Lorem ipsum"
+#: views/temp/featured-item.php:20
+msgctxt "Button text"
+msgid "Click here"
 msgstr ""
